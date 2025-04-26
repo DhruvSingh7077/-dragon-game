@@ -39,6 +39,9 @@ body{
 .obstacleAni{
     animation: obstacleAni 3s linear infinite;
 }
+.gameOver{
+    visibility:hidden;
+}
 @keyframes dino{
     0%{
         bottom: 0; 
